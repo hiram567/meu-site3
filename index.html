@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="padrão_geral">
+        <h4 id="titulo_playlist">Playlist Para Amante de Supernatural (TE AMO)</h4>
+        <img id="capa_musica" alt="capa do disco"></img>
+        <audio id='musica'></audio>
+        <div id="info_banda">
+            <div id="info_musica">
+                <div id="nome_da_musica">NOME DA MUSICA</div>
+                <div id="nome_da_banda" class="cor_letras">NOME DA BANDA</div>
+            </div>
+            <button id='like' class="cor_letras" class="button" ><i class="bi bi-heart"></i></button>
+        </div>
+        <div id="preenchimento_barra">
+            <div id="barra_progresso">
+                <div id="progresso_corrido"></div>
+            </div>
+            <div id="caixa_tempo">
+                <div id="tempo_musica">00:00</div>
+                <div id="tempo_total">00:00</div>
+            </div>    
+        </div>    
+            <DIV id="botoes_auxiliares">
+            <button id="embaralhar" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="anterior" class="button button_navegador"><i class="bi bi-arrow-left-square-fill"></i></button>
+            <button id="play" class="button button_grande"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="proximo" class="button button_navegador"><i class="bi bi-arrow-right-square-fill"></i></button>    
+            <button id="repetir" class="button"><i class="bi bi-arrow-repeat"></i></button>
+        </DIV>
+    </div>
+    <script src="/script.js"></script>        
+</body>
+</html>

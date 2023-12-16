@@ -1,0 +1,98 @@
+body {
+      background-image: linear-gradient(
+        rgb(59,88,93),
+        rgb(29,40,42)
+      );
+    height: 100vh;
+    color: white;
+    font-family:sans-serif; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+#info_banda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0em 1em 0em;
+}
+
+#botoes_auxiliares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button_navegador{
+    font-size: 3em;
+}
+
+.button_grande{
+     font-size: 4em;
+}
+
+#capa_musica{
+    width: 430px;
+}
+
+#titulo_playlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0em 4em 0em;
+}
+
+#nome_da_musica{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.cor_letras{
+    color: rgb(139,153,156);
+}
+
+#barra_progresso{
+    background-color: rgb(139,153,156);
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#progresso_corrido{
+    --progresso: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progresso);
+    border-radius: inherit;
+}
+
+#preenchimento_barra{
+    padding: 0em 0em 1em 0em;
+    cursor: pointer;
+}
+
+.ativar_botão{
+    color: rgb(92, 163, 92);
+}
+
+#caixa_tempo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
